@@ -1,0 +1,24 @@
+.inputData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 230px;
+}
+
+.inputDataInput{
+    width: 100%;
+    background-color: #f1f0f0;
+    border-radius: 6px;
+    padding: 10px;
+}
+.inputDataInputNumber{
+    width: 100%;
+    background-color: #f1f0f0;
+    border-radius: 6px;
+    padding: 6px;
+}
+.inputDataInputNumber:hover,.inputDataInput:hover,.inputDataInput:focus,.inputDataInputNumber:focus{
+    border-color: #ee430d !important;
+    box-shadow: 0 0 0 0 !important;
+}

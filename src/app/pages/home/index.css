@@ -1,0 +1,50 @@
+.home{
+    height: calc(100% - 73px);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.homeData{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #f1f0f0;
+}
+.containers{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftData{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.cardData{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.rightData{
+    width: 30%;
+    height: 100%;
+}
+.bcItemNameActive{
+    color: #1faa88;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bcItemName{
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.filter{
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.filterSelect{
+    border:1px solid #5f1faa !important;
+    border-radius: 32px;
+    width: 100%;
+}
+.applyButton{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+.card{
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 20px;
+}
+.cardTitle{
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #1faa88;
+    padding: 10px;
+    color: #ffffff;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardContent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
